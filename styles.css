@@ -207,7 +207,7 @@
 
 
 .ks3-tuitions{
-    padding: 80px 60px;
+    padding: 10px 60px;
     border-radius: 0;
     margin: 0;
     max-width: none;
@@ -215,8 +215,8 @@
 }
 .ks3-tuitions-title h2{
     font-size: 2rem;
+    text-align: center;
     margin-bottom: 25px;
-    text-align: left;
 }
 .ks3-tuition-options{
     display: flex;
@@ -238,7 +238,7 @@
     color: #333;
 }
 .gcse-tuitions{
-    padding: 80px 60px;
+    padding: 10px 60px;
     border-radius: 0;
     margin: 0;
     max-width: none;
@@ -247,7 +247,7 @@
 .gcse-tuitions-title h2{
     font-size: 2rem;
     margin-bottom: 25px;
-    text-align: left;
+    text-align: center;
 }
 .gcse-tuition-options{
     display: flex;
@@ -269,7 +269,7 @@
     color: #333;
 }
 .a-level-tuitions{
-    padding: 80px 60px;
+    padding: 10px 60px;
     border-radius: 0;
     margin: 0;
     max-width: none;
@@ -278,7 +278,7 @@
 .a-level-tuitions-title h2{
     font-size: 2rem;
     margin-bottom: 25px;
-    text-align: left;
+    text-align: center;
 }
 .a-level-tuition-options{
     display: flex;
@@ -452,6 +452,11 @@
     font-size: 28px;
     margin-bottom: 20px;
 }
+.products-subtitle{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
 .product-image img{
     max-width: 100%;
     height: auto;
@@ -546,6 +551,43 @@ a.more-products-button:hover{
     border: solid rgb(203, 203, 203);
     user-select: none;
 }
+
+#workWithUs {
+    margin: 0 auto;
+    padding: 0px 20px;
+    color: #000;
+    line-height: 1.7;
+}
+.workTitle h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.workInfo p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.workInfo ul {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.workInfo li {
+    margin-bottom: 10px;
+}
+
+.workInfo a {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+
 
 
 #contact{
