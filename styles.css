@@ -230,9 +230,11 @@
     padding: 20px;
     flex: 1 1 calc(50% - 20px);
     text-align: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 10px rgba(157, 219, 198, 0.95);
+    border: 1px solid rgba(157, 219, 198, 0.95);
 }
+
 .ks3-card h3{
     margin-bottom: 10px;
     color: #333;
@@ -261,8 +263,9 @@
     padding: 20px;
     flex: 1 1 calc(50% - 20px);
     text-align: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 10px rgba(157, 219, 198, 0.95);
+    border: 1px solid rgba(157, 219, 198, 0.95);
 }
 .gcse-card h3{
     margin-bottom: 10px;
@@ -292,37 +295,35 @@
     padding: 20px;
     flex: 1 1 calc(50% - 20px);
     text-align: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 10px rgba(157, 219, 198, 0.95);
+    border: 1px solid rgba(157, 219, 198, 0.95);
 }
 .a-level-card h3{
     margin-bottom: 10px;
     color: #333;
 }
 
-
-
-
 .tuition-button{
     display: inline-block;
+    font-weight: bold;
     color: black;
     cursor: pointer;
     border-radius: 18px;
-    border: solid 1.5px black;
+    border: solid 1.5px #DB9DB2;
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     transition: background 0.3s ease, transform 0.2s ease;
     margin-top: 15px;
 }
+
 .tuition-button:hover{
-    background: black;
-    color: white;
+    color: black;
+    box-shadow: 0 6px 16px rgba(219, 157, 178, 1);
+    border-color: #DB9DB2;
     transform: scale(1.05);
 }
-
-
-
 
 .tutor-profiles-title{
     text-align: center;
@@ -404,6 +405,7 @@
     line-height: 1.5;
 }
 
+
 .free-resources-title{
     padding-top: 10px;
     text-align: center;
@@ -412,33 +414,35 @@
 }
 .free-resources-info{
     margin-top: 30px;
-    align-items: center;
     text-align: center;
     
 }
-.free-resources-button{
-    margin-top: 30px;
+.free-resources-button, .free-resources-ig a, .free-resources-tiktok a{
     display: inline-block;
     font-weight: bold;
     color: black;
     cursor: pointer;
     border-radius: 18px;
     border: solid 1.5px #9DDBC6;
-    /*#DB9DB2*/
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     transition: background 0.3s ease, transform 0.2s ease;
-    margin-bottom: 100px;
+    margin: 0 15px 100px 15px;
 }
-.free-resources-button:hover{
+.free-resources-button:hover, .free-resources-ig a:hover, .free-resources-tiktok a:hover{
     color: black;
     box-shadow: 0 6px 16px rgba(157, 219, 198, 1);
     border-color: #9DDBC6;
     transform: scale(1.05);
 }
-
-
+.free-resources-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
 
 .products-grid{
     display: grid;
