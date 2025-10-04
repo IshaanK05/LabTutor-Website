@@ -3,9 +3,11 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Playfair Display";    
+    font-family: "Playfair Display";
 }
-
+body {
+    background: linear-gradient(to bottom right, #E0F6EE, #FCE8EE);
+}
 
 .header{
     position: fixed;
