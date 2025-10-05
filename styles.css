@@ -169,7 +169,7 @@ body {
     display: flex;
     justify-content: center;   
     align-items: center;       
-    padding: 200px 20px 0 ;
+    padding: 200px 20px 0 20px;
     text-align: center;
     position: relative;
 }
@@ -715,4 +715,5 @@ a.more-products-button:hover{
         justify-content: center;
     }
 }
+
 
