@@ -6,7 +6,7 @@
     font-family: "Playfair Display";
 }
 body {
-    background: linear-gradient(to bottom right, #FCE8EE, #E0F6EE);
+    background: linear-gradient(to bottom right, #E0F6EE, #FCE8EE);
 }
 
 .header{
@@ -192,8 +192,50 @@ body {
     margin: 0;
     letter-spacing: 1px;
     line-height: 1.3;
+    font-family: "Playfair Display";
 }
 
+#free-consultation{
+    padding: 80px 60px 0 60px;
+}
+.free-consultation-title h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.free-consultation-info {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0 auto;
+    text-align: center;
+}
+.free-consultation-info ul{
+    list-style-position: inside;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.booking-button a{
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    border-radius: 18px;
+    border: solid 1.5px #DB9DB2;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+}
+.booking-button a:hover{
+    color: black;
+    box-shadow: 0 6px 16px rgba(219, 157, 178, 1);
+    border-color: #DB9DB2;
+    transform: scale(1.05);
+}
 
 .about-section{
     padding: 80px 60px;
@@ -715,5 +757,4 @@ a.more-products-button:hover{
         justify-content: center;
     }
 }
-
 
